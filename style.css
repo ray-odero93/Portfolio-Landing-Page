@@ -1,8 +1,21 @@
+@font-face {
+  font-family: myCustomFont;
+  src: url(./Assets/fonts/Caveat/static/Caveat-Regular.ttf);
+}
+
+@font-face {
+  font-family: myCustomFont2;
+  src: url(./Assets/fonts/Poppins/Poppins-BoldItalic.ttf);
+}
+
 body {
   background: linear-gradient(to left bottom, #65dfc9, #6cdbeb);
+  font-family: myCustomFont;
+  font-size: 30px;
 }
 
 .navbar {
+  font-family: myCustomFont2;
   background-color: rgb(168, 204, 215);
   color: rich black;
 }
@@ -20,7 +33,7 @@ body {
   margin-bottom: 35px;
 }
 
-.intro h5 {
+.intro h1 {
   color: white;
   font-size: 70px;
   padding-top: 250px;
@@ -35,10 +48,17 @@ body {
 .card1 {
   background-color: white;
 }
+h1 {
+  font-family: myCustomFont2;
+}
 
 
 h1, p, li{
   text-align: center;
+}
+
+h5 {
+  font-family: myCustomFont2;
 }
 
 .row {
@@ -50,6 +70,11 @@ li {
 }
 
 .mySkill {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.prjct {
   padding-top: 25px;
   padding-bottom: 25px;
 }
