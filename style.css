@@ -2,6 +2,15 @@ body {
   background: linear-gradient(to left bottom, #65dfc9, #6cdbeb);
 }
 
+.navbar {
+  background-color: rgb(168, 204, 215);
+  color: rich black;
+}
+.navbar :hover{
+  color: whitesmoke;
+  cursor: pointer;
+}
+
 .intro {
   text-align: center;
   background-image: url(./Assets/Images/Kites.jpg);
