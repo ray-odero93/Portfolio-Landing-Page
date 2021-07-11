@@ -15,6 +15,7 @@ h1, p, li{
   flex-wrap: nowrap !important;
   justify-content: space-between;
 }
+
 li {
   list-style: none;
 }
