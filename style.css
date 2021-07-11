@@ -9,7 +9,7 @@
 }
 
 body {
-  background: linear-gradient(to left bottom, #65dfc9, #6cdbeb);
+  background-color: rgb(168, 204, 215);
   font-family: myCustomFont;
   font-size: 30px;
 }
@@ -88,4 +88,11 @@ li {
 .btn {
   display: block;
   border-radius: 5px, 5px, 5px, 5px;
+}
+
+.f-contact {
+  background-image: url(./Assets/Images/OceanView.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
