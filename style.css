@@ -1,21 +1,35 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background: linear-gradient(to left bottom, #65dfc9, #6cdbeb);
 }
+
+
+
+.intro h5 {
+  color: white;
+  font-size: 70px;
+  padding-top: 250px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  background-color: white;
+}
+
+
 h1, p, li{
   text-align: center;
 }
 
 .row {
-  flex-wrap: nowrap !important;
   justify-content: space-between;
 }
 
 li {
   list-style: none;
 }
+
