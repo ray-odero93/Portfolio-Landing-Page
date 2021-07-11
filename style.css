@@ -7,11 +7,14 @@
 body {
   background: linear-gradient(to left bottom, #65dfc9, #6cdbeb);
 }
-h1 {
+h1, p, li{
   text-align: center;
 }
 
 .row {
   flex-wrap: nowrap !important;
   justify-content: space-between;
+}
+li {
+  list-style: none;
 }
