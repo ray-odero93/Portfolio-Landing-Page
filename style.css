@@ -6,9 +6,12 @@
 
 body {
   background: linear-gradient(to left bottom, #65dfc9, #6cdbeb);
-
+}
+h1 {
+  text-align: center;
 }
 
-.card-body {
-  
+.row {
+  flex-wrap: nowrap !important;
+  justify-content: space-between;
 }
