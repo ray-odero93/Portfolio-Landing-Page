@@ -45,9 +45,15 @@ body {
   justify-content: center;
 }
 
+.card {
+  border-radius: 20px;
+}
+
 .card1 {
   background-color: white;
+  border-radius: 25px;
 }
+
 h1 {
   font-family: myCustomFont2;
 }
@@ -77,4 +83,9 @@ li {
 .prjct {
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.btn {
+  display: block;
+  border-radius: 5px, 5px, 5px, 5px;
 }
